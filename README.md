@@ -120,7 +120,6 @@ You can run the notebooks in Jupyter Notebook or JupyterLab. Each notebook conta
 
 
 ## 5. Visuals and Screenshots
-# Screenshots and Visuals
 The project includes two visual elements to support the transformation and provide a better understanding of the data:
 
 ### Preview of Transformed Data
@@ -129,7 +128,7 @@ A screenshot showing a few rows from transformed_full.csv, confirming that trans
 ### Total Price Distribution Chart
 A histogram visualization of the total_price column, illustrating how customer spending varies across the dataset. This supports data profiling and meets the bonus requirement for including a visual.
 
-## 5. Bonus Features      
+## 6. Bonus Features      
 - **Data Profiling**: The project includes a histogram of the `total_price` column, showing customer spending distribution.
 - **Data Validation**: The transformation notebook checks for missing values and duplicates, ensuring data quality.
 - **Documentation**: Each notebook contains detailed comments explaining the purpose and steps of each transformation.      
@@ -137,5 +136,5 @@ A histogram visualization of the total_price column, illustrating how customer s
 - **Error Handling**: The load notebook includes basic error handling to catch connection issues or SQL errors. 
 - **Data Enrichment**: The transformation step includes a calculated field (`total_price`) to enhance the dataset.
 
-## 6. Conclusion  
+## 7. Conclusion  
 This ETL lab provides a comprehensive exercise in data extraction, transformation, and loading. By following the steps outlined in the notebooks, you can effectively manage customer sales data, ensuring it is clean, structured, and ready for analysis. The project demonstrates essential ETL skills applicable in real-world scenarios, preparing you for future data engineering tasks.
