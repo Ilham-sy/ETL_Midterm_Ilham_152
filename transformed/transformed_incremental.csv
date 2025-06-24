@@ -1,0 +1,3 @@
+order_id,customer_name,product,quantity,unit_price,order_date,region,total_price,spending_category
+105,Heidi,Tablet,2.0,600.0,2024-05-21,North,1200.0,Very High
+109,Grace,Laptop,2.0,600.0,2024-05-29,Central,1200.0,Very High
