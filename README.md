@@ -61,7 +61,7 @@ Ensure you have the following Python packages installed:
 ```bash
 pip install pandas pyodbc
 ```
-### 1. Extract – `etl_extract.ipynb`
+### a. Extract – `etl_extract.ipynb`
 - Loads the initial data from `raw_data.csv` and `incremental_data.csv` 
 - Displays the first few rows and information about the datasets using `.head()` and `.info()`
 - Identifies:
@@ -71,7 +71,7 @@ pip install pandas pyodbc
 - Saves the data into the `data/` folder for further processing
 - The extraction phase ensures that the data is ready for transformation, providing a clear overview of its structure and quality.
 
-### 2. Transform – `etl_transform.ipynb`
+### b. Transform – `etl_transform.ipynb`
 - Applies at least four transformations to the extracted data:  
 1. **Remove duplicates**: Ensures no repeated records exist in the dataset.
 2. **Drop rows with missing values in key columns**: Cleans the dataset by removing incomplete records that could affect analysis.
@@ -83,7 +83,7 @@ pip install pandas pyodbc
   - `transformed_incremental.csv`: Contains the incremental data after transformations    
 - Each transformation is clearly explained, with before-and-after views to illustrate the changes made to the dataset.
 
-### 3. Load – `etl_load.ipynb`
+### c. Load – `etl_load.ipynb`
 - Loads the transformed data into a SQL Server database using `pyodbc`
 - Connects to a local database and inserts rows into a `full_data` table
 - Confirms success by previewing records in the database
