@@ -71,8 +71,6 @@ Each transformation is clearly explained, with before-and-after views.
 
 ```bash
 # 1. Clone the GitHub repository
-git clone https://github.com/<your-username>/DSA2040A_ETL_Midterm_Ilham_123.git
-cd DSA2040A_ETL_Midterm_Ilham_123
 
 # 2. Run notebooks in order:
 etl_extract.ipynb – Load and inspect raw data
