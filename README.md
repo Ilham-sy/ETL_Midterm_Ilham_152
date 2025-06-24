@@ -80,6 +80,5 @@ etl_load.ipynb – Insert into database
 # 3. Check your outputs:
 - CSVs saved in /transformed/
 - Data loaded into database (SQL Server or SQLite)
-
-c:\Users\Ayan\Pictures\Screenshots\Distribution Total Price.png
-
+```
+# Screenshots   
