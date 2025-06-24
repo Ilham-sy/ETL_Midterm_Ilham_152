@@ -1,0 +1,27 @@
+# Python    
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+lib/
+include/
+bin/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs and Editors
+.vscode/        # VS Code
+.idea/          # PyCharm/IntelliJ
+*.swp           # Vim swap files
+*~              # Emacs backup files
+
+# Operating System Files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+ehthumbs.db     # Windows
