@@ -81,6 +81,5 @@ etl_load.ipynb – Insert into database
 - CSVs saved in /transformed/
 - Data loaded into database (SQL Server or SQLite)
 
-
-"C:\Users\Ayan\Pictures\Screenshots\screenshots transformed data preview.png"
+c:\Users\Ayan\Pictures\Screenshots\Distribution Total Price.png
 
