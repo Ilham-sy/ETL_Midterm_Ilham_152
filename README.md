@@ -11,8 +11,6 @@
 ## 1. Project Overview
 **Project Title:** ETL Lab – Customer Sales Data Pipeline 
 
-**GitHub Repository:** [ETL Lab Repository](https://github.com/yourusername/etl-lab)  
-
 **Project Description:**
 
 This project is an ETL lab designed to simulate a real-world data pipeline scenario. It involves extracting customer sales data from CSV files, transforming it through various data cleaning and enrichment processes, and loading the final dataset into a database system. The project emphasizes best practices in ETL processes, including file management, documentation, and version control.  
